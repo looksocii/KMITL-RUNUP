@@ -1,0 +1,40 @@
+body{
+  background: #222;
+  font-family: 'Kanit', sans-serif;
+  padding: 100px 200px 0px 200px;
+}
+.topic{
+  font-size:6vh;
+  color:#fff;
+  margin-bottom: 0px;
+}
+.hr_undl{
+  height: 4px;
+  background-color:#ffc600;
+  border: none;
+}
+div{
+  color:#fff;
+}
+.ct1{
+  padding:10px;
+  width: 80%;
+}
+.ct2{
+  padding: 12px 0px 0px 20px;
+  width: 90%;
+}
+.ct3{
+  padding: 0px 0px 0px 60px;
+  width: 50%;
+}
+.subheading{
+  margin: 0px;
+  width: max-content;
+  padding: 0px 10px 0px 10px;
+  color: #222;
+  background-color:#ffc600;
+}
+.sub_ct_img_btn{
+  text-align: center;
+}

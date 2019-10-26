@@ -1,0 +1,30 @@
+html, body , div{
+    font-family: 'Kanit', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+hr{
+    background-color: #ffc800;
+    height: 1px;
+}
+h6{
+    color:#8e8e8e;
+    padding: 0px 0px 0px 10px;
+}
+h1{
+    padding-top: 50px;
+}
+.content_box{
+    background-color: #ffd400;
+    color: #222;
+    padding: 20px 20px 20px 20px;
+}
+.sub_topic{
+    font-size: 35px;
+    background: #222;
+    color: #fff;
+    padding: 0px 30px 0px 10px;
+}
+.sub_ct_img_btn{
+    text-align: center;
+}

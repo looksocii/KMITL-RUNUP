@@ -1,0 +1,58 @@
+html, body, div{
+      background-color:#1f1f1f;
+      font-family: 'Kanit', sans-serif;
+    }
+.row, .col{
+  color:#fff;
+}
+    .yello_tap{
+      background-color:#ffc107;
+      height: 140px;
+      width: 55px;
+    }
+    .sub_tap{
+      font-size:140px;
+    }
+    .content{
+      margin: 20px 0px 0px 73px;
+    }
+    .topic{
+      color:#1f1f1f;
+      background-color:#fff;
+      padding: 0px 10px 0px 10px;
+      height: fit-content;
+      width: fit-content;
+    }
+    .ct_img{
+      padding-bottom: 30px;
+      margin-left: -14px;
+    }
+    .sub_ct_img{
+      background: #fff;
+      width: 620px;
+      padding: 15px 10px 15px 10px;
+      border-radius: 0px 0px 20px 20px;
+    }
+    .sub_ct_img_btn{
+      text-align: right;
+      background: transparent;
+    }
+    .cpt_btn{
+      width: 200px;
+      position: fixed;
+      overflow: hidden;
+      top: 85%;
+      left: 70%;
+    }
+    .hello_user{
+      margin-top: -15px;
+      color: #fff;
+      font-family: fantasy;
+      font-size: 75px;
+    }
+    .run_cha{
+      margin-top: -18px;
+      color: #ffc107;
+      font-family: fantasy;
+      font-size: 75px;
+    }

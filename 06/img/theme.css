@@ -1,0 +1,41 @@
+html, body{
+    font-family: "Kanit", sans-serif;
+}
+body{
+    background: #222;
+    padding: 100px 200px 0px 200px;
+}
+.topic{
+    font-size: 3vh;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.hr_undl{
+    height: 4px;
+    background-color: #ffc600;
+    border: none;
+    width: 100%;
+    float: left;
+}
+div{
+    color: #fff;
+}
+.subheading {
+    margin: 0px;
+    width: max-content;
+    padding: 0px 10px 0px 10px;
+    color: #222;
+    background-color: #ffc600;
+}
+.sub_topic{
+    font-size: 35px;
+    background: #222;
+    color: #fff;
+    padding: 0px 30px 0px 10px;
+}
+.content_box{
+    background-color: #ffd400;
+    color: #222;
+    padding: 20px 20px 20px 20px;
+}
+  
