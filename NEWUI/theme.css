@@ -1,0 +1,72 @@
+body{    
+    background-color: #222222;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+  height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("https://cn.opendesktop.org/img/c/1/f/8/2044c87c80e6dbdaedf2393da1212ff5e855.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.footer{
+    position: fixed;
+    top: 77%;
+    left: 22%;
+}
+table{
+    background: transparent;
+    color: #fff;
+}
+.std_th_width{
+    width: 84px;
+}
+.table td, .table th {
+    padding: 7px 5px 7px 5px;
+    text-align: center;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: 480px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 150px;
+    height: 150px;
+}
+.card{
+    background: none;
+    left: 24%;
+    width: 46%;
+    top: 70px;
+    position: fixed;
+    border: none;
+}
+.btn_small{
+    padding:2px 18px 2px 18px;
+    margin-bottom: 7px;
+}
+.this_km{
+    background-color: #3eafe0;
+    border-radius: 15px;
+    padding: 5px;
+}
+.this_time{
+    background-color: #47b730;
+    border-radius: 15px;
+    padding: 5px;
+}
+.this_pace{
+    background-color: #47b730;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}

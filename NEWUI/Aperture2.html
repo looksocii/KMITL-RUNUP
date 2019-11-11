@@ -1,0 +1,637 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Foto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-image:url(https://wallpapershome.com/images/pages/pic_h/18295.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .content1 {
+            border: 2px solid#2e2e33;
+            border-radius: 25px;
+            background-color: #2e2e33;
+            height: 100%;
+            margin-top: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+            margin: auto;
+        }
+
+        .content2 {
+            border: 2px solid#2e2e33;
+            border-radius: 25px;
+            background-color: #2e2e33;
+            height: 100%;
+            margin-top: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+            margin: auto;
+        }
+
+        .content3 {
+            border: 2px solid#2e2e33;
+            border-radius: 25px;
+            background-color: #2e2e33;
+            height: 100%;
+            margin-top: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+            margin: auto;
+        }
+
+        .content4 {
+            border: 2px solid#2e2e33;
+            border-radius: 25px;
+            background-color: #2e2e33;
+            height: 100%;
+            margin-top: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+            margin: auto;
+            padding-left: 20px;
+        }
+
+        .paragraph1 {
+            font-family: 'Mitr', sans-serif;
+            font-size: 1.5em;
+            text-align: unset;
+            text-indent: 50px;
+            line-height: 2;
+            margin-top: 25px;
+        }
+
+        .paragraph2 {
+            font-family: 'Mitr', sans-serif;
+            font-size: 1.5em;
+            text-align: unset;
+            text-indent: 50px;
+            line-height: 2;
+            margin-top: 25px;
+        }
+
+        .paragraph3 {
+            font-family: 'Mitr', sans-serif;
+            font-size: 1.5em;
+            text-align: unset;
+            text-indent: 50px;
+            line-height: 2;
+            margin-top: 25px;
+        }
+
+        .paragraph4 {
+            font-family: 'Mitr', sans-serif;
+            font-size: 1.5em;
+            text-align: unset;
+            text-indent: 50px;
+            line-height: 2;
+            margin-top: 25px;
+        }
+
+        .container-fluid {
+            margin-top: 2px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+        }
+        .img2{
+            height: 450px;
+        }
+        .img3 {
+            height: 500px;
+        }
+        .img4{
+            height: 520px;
+        }
+
+        div {
+            margin: 0;
+            padding: 5px;
+            object-fit: cover;
+        }
+        .col-lg-6 {
+            color: white;
+        }
+
+        .col-lg-7 {
+            color: white;
+        }
+
+        .col-lg-12 {
+            font-size: 25px;
+            font-family: 'Mitr', sans-serif;
+        }
+
+        #fade-it {
+            opacity: 0;
+            transition: opacity 1000ms ease-in;
+        }
+
+        #fade-it.appear {
+            opacity: 1;
+        }
+
+        .main-header {
+            position: fixed;
+            justify-content: space-between;
+            align-items: center;
+            height: 65px;
+            width: 100vw;
+            padding: 0 10vw;
+            color: black;
+            transition: .4s ease-out;
+            background-color: whitesmoke;
+        }
+
+        .main-header a {
+            text-decoration: none;
+            color: inherit;
+            text-transform: uppercase;
+        }
+
+        .main-header .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        /* css manubar */
+        .main-header .nav-links .nav-link a {
+            margin: 0;
+            padding: 1rem .5rem;
+            font-size: 30px;
+            font-family: 'Mitr', sans-serif;
+        }
+
+        /* hover manubar mouse */
+        .main-header .nav-links .nav-link a:hover {
+            background: whitesmoke;
+        }
+
+        .main-header .menu-icon {
+            position: relative;
+            padding: 26px 10px;
+            cursor: pointer;
+            z-index: 1;
+            display: none;
+        }
+
+        .main-header .menu-icon__line {
+            display: block;
+            position: fixed;
+            background-color: black;
+            height: 2px;
+            width: 20px;
+            border-radius: 4px;
+            opacity: 1.0;
+            filter: alpha(opacity=100);
+        }
+
+        .main-header .menu-icon__line::before,
+        .main-header .menu-icon__line::after {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border-radius: 4px;
+            background-color: black;
+            transition: background .8s ease;
+            opacity: 1.0;
+            filter: alpha(opacity=100);
+        }
+
+        .main-header .menu-icon__line::before {
+            transform: translateY(-5px);
+        }
+
+        .main-header .menu-icon__line::after {
+            transform: translateY(5px);
+        }
+
+        .main-header .menu-btn {
+            display: none;
+        }
+
+        .main-header.scrolled {
+            height: 50px;
+            color: black;
+            background-color: black;
+        }
+
+        .main-header.scrolled .menu-icon__line,
+        .main-header.scrolled .menu-icon__line::before,
+        .main-header.scrolled .menu-icon__line::after {
+            background-color: whitesmoke;
+        }
+
+        @media screen and (max-width: 767px) {
+            .main-header .menu-icon {
+                display: block;
+            }
+
+            /* hamberger button */
+            .main-header .menu-icon__line {
+                animation: closedMid 0.8s backwards;
+                animation-direction: reverse;
+            }
+
+            .main-header .menu-icon__line::before {
+                animation: closedTop 0.8s backwards;
+                animation-direction: reverse;
+            }
+
+            .main-header .menu-icon__line::after {
+                animation: closedBtm 0.8s backwards;
+                animation-direction: reverse;
+            }
+
+            .main-header .nav-links {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 10rem 0;
+                width: 100vw;
+                height: 100vh;
+                font-size: 2rem;
+                color: white;
+                background: black;
+                transition: opacity .8s .5s, clip-path 1s .5s;
+                clip-path: circle(200px at top right);
+            }
+
+            .main-header .nav-links .nav-link {
+                opacity: 0;
+                transform: translateX(100%);
+                width: 100%;
+                text-align: center;
+            }
+
+            .main-header .nav-links .nav-link a {
+                display: block;
+                padding: 2rem 0;
+            }
+
+            .main-header .menu-btn:checked~.nav-links {
+                opacity: 1;
+                clip-path: circle(100% at center);
+            }
+
+            .main-header .menu-btn:checked~.nav-links .nav-link {
+                opacity: 1;
+                transform: translateX(0);
+                transition: opacity 0.4s ease-in-out, transform 0.6s cubic-bezier(0.175, 0.085, 0.32, 1.275);
+            }
+
+            .main-header .menu-btn:checked~.nav-links .nav-link:nth-of-type(1) {
+                transition-delay: .7s;
+            }
+
+            .main-header .menu-btn:checked~.nav-links .nav-link:nth-of-type(2) {
+                transition-delay: .8s;
+            }
+
+            .main-header .menu-btn:checked~.nav-links .nav-link:nth-of-type(3) {
+                transition-delay: .9s;
+            }
+
+            .main-header .menu-btn:checked~.nav-links .nav-link:nth-of-type(4) {
+                transition-delay: 1s;
+            }
+
+            .main-header .menu-btn:checked~.menu-icon {
+                border-radius: 50%;
+                animation: pulse 1s;
+            }
+
+            .main-header .menu-btn:checked~.menu-icon .menu-icon__line {
+                background: white;
+                animation: openMid 0.8s forwards;
+            }
+
+            .main-header .menu-btn:checked~.menu-icon .menu-icon__line::before {
+                background: white;
+                animation: openTop 0.8s forwards;
+            }
+
+            .main-header .menu-btn:checked~.menu-icon .menu-icon__line::after {
+                background: white;
+                animation: openBtm 0.8s forwards;
+            }
+        }
+
+        @keyframes pulse {
+            from {
+                box-shadow: 0 0 0 0px black;
+                background: black;
+            }
+
+            to {
+                box-shadow: 0 0 0 1000px black;
+                background: black;
+            }
+        }
+
+        @keyframes openTop {
+            0% {
+                transform: translateY(-5px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(90deg);
+            }
+        }
+
+        @keyframes closedTop {
+            0% {
+                transform: translateY(-5px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(90deg);
+            }
+        }
+
+        @keyframes openMid {
+            50% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(45deg);
+            }
+        }
+
+        @keyframes closedMid {
+            50% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(45deg);
+            }
+        }
+
+        @keyframes openBtm {
+            0% {
+                transform: translateY(5px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(90deg);
+            }
+        }
+
+        @keyframes closedBtm {
+            0% {
+                transform: translateY(5px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(90deg);
+            }
+        }
+
+        .content {
+
+            float: left;
+            width: 100%;
+            height: 600px;
+
+        }
+
+        .smallone {
+            top: 10%;
+            position: relative;
+            left: 15%;
+            width: 70%;
+
+            font-size: 50px;
+        }
+
+        .txt {
+            font-family: 'Mitr', sans-serif;
+
+        }
+
+
+        @media screen and (max-width:600px) {
+
+            .content {
+                width: 100%;
+            }
+
+            .smallone {
+                width: 80%;
+                font-size: 25px;
+                left: 10%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-expand-lg sticky-top main-header">
+        <div class="logo">
+            <a href="#">LOGO</a>
+            <img class="logopic" src="https://cdn.pixabay.com/photo/2018/02/26/11/11/camera-3182823_960_720.png" alt=""a href="#">
+            <img src="my love.png" alt="">
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon__line"></span>
+        </label>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <div class="dropdown">
+                    <a href="index.html">หน้าแรก</a>
+                </div>
+            </li>
+            <li class="nav-link">
+                <div class="dropdown">
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </li>
+            <li class="nav-link">
+                <div class="dropdown">
+                    <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
+                        พื้นฐานการถ่ายภาพ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="Aperture2.html">Aperture – รูรับแสง</a>
+                        <a class="dropdown-item" href="ISO2.html">ISO – ค่าความไวแสง</a>
+                        <a class="dropdown-item" href="speed2.html">Shutter Speed – ความเร็วชัตเตอร์</a>
+                        <a class="dropdown-item" href="White-Balance.html">White Balance – ทางยาวโฟกัส</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-link">
+                <div class="dropdown">
+                    <a href="#">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </nav> -->
+
+    <div class="container-fluid">
+        <div id="fade-it" class="row">
+            <div class="col-lg-5 col-sm-12">
+                <img class="img1"
+                    src="https://www.photoschoolthailand.com/wp-content/uploads/2019/06/camerasetting_2-4.jpg"
+                    alt="image">
+            </div>
+            <div class="col-lg-7 col-sm-12 content1">
+                <h1>Aperture – รูรับแสง</h1><br>
+                <p class="paragraph1">รูรับแสงคือสิ่งที่อยู่ด้านหน้าเลนส์
+                    ควบคุมปริมาณแสงที่จะผ่านเข้าไปที่กล้อง
+                    ส่วนหลักการทำงานของรูรับแสง</p>
+                <p class="paragraph1">ให้คิดง่าย ๆ ว่าดวงตาของเราทำงานอย่างไร
+                    รูรับแสงก็ทำงานเช่นนั้น
+                    <br>เมื่อเราอยู่ในสถานที่ที่สว่างและมืด ม่านตาของเราจะขยายหรือหด
+                    เพื่อควบคุมไซท์ของลูกตาดำ</p>
+                <p class="paragraph1">ส่วนการถ่ายภาพ ลูกตาดำก็คือรูรับแสงนั่นเอง
+                    ซึ่งเราสามารถหดหรือขยายขนาดของรูรับแสง
+                    เพื่อให้แสงเข้าถึงเซ็นเซอร์ของกล้อง ได้มากหรือน้อยตามต้องการ</p>
+            </div>
+        </div>
+
+
+        <div id="fade-it" class="row">
+            <div class="col-lg-7 col-sm-12 content2">
+                <h1>Aperture – รูรับแสง</h1><br>
+                <p class="paragraph2">ผลลัพธ์ของการเปลี่ยนรูรับแสงที่เห็นได้ชัดคือความสว่างในภาพ
+                    เมื่อเปลี่ยนขนาดของรูรับแสง ปริมาณแสงที่เข้ามาก็จะต่างกัน นั่นคือรูรับแสงกว้าง
+                    แสงจะผ่านเข้ามาได้มาก ทำให้ภาพสว่าง</p>
+                <p class="paragraph2">แต่หาก
+                    รูรับแสงแคบ แสงจะเข้ามาได้น้อย ภาพจึงมืด
+                    ดูตัวอย่างจากภาพด้านล่างเลยในกรณีที่อยู่ในที่แสงน้อย
+                    เช่น ตอนกลางคืน ก็จะต้องปรับรูรับแสงกว้าง เพื่อให้แสงเข้าได้มาก ตรงกันข้าม
+                    หากแสงจ้าก็จะใช้รูรับแสงแคบ</p>
+            </div>
+            <div class="col-lg-5 col-sm-12">
+                <img class="img2"
+                    src="https://cdn.photographylife.com/wp-content/uploads/2018/01/Aperture-Effect-on-Brightness.jpg"
+                    alt="image">
+            </div>
+        </div>
+
+
+        <div id="fade-it" class="row">
+            <div class="col-lg-5 col-sm-12">
+                <img class="img3"
+                    src="https://cdn.photographylife.com/wp-content/uploads/2009/12/20091030-Boulder-558-960x638.jpg"
+                    alt="image">
+            </div>
+            <div class="col-lg-7 col-sm-12 content3">
+                <h1>Aperture – รูรับแสง</h1><br>
+                <p class="paragraph3">เมื่อเราปรับเปลี่ยนขนาดของรูรับแสง
+                    ความชัดลึกคือผลที่เกิดขึ้นอีกอย่างหนึ่ง
+                    ภาพถ่ายของคุณที่ชัดตั้งแต่ด้านหน้าเฟรมภาพไปจนถึงด้านหลังเฟรม <br>เรียกว่าภาพชัดลึก
+                    ส่วนบางภาพที่ฉากหลังอยู่นอกระยะโฟกัส ด้านหลังเบลอ ๆ <br>เราเรียกว่า
+                    ภาพชัดตื้นจะเห็นว่าภาพด้านบน
+                    คำว่า Cougar อยู่ในระยะโฟกัส ส่วนฉากหลังหลุดระยะโฟกัส
+                </p>
+                <p class="paragraph3">เนื่องจากใช้รูรับแสงกว้างถ่ายภาพ
+                    แต่ถ้าใช้รูรับแสงแคบ ภาพทั้งหมดทั้งฉากหน้าและฉากหลังก็จะคมชัด
+                    ไม่หลุดระยะโฟกัสใช้รูรับแสงกว้างถ่ายภาพ</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fade-it" class="row">
+        <div class="col-lg-6 col-sm-12 content4">
+            <h1>Aperture – รูรับแสง</h1><br>
+            <p class="paragraph4">ขนาดของรูรับแสงเมื่ออธิบายเป็น
+                f-stop หรือ f number นั่นคือ f ที่ตามด้วยเลขน้อยหรือรูรับแสงกว้าง ส่วน f
+                เลขมากหรือรูรับแสงแคบ</p>
+            <p class="paragraph4">ยกตัวอย่าง f/1.4 ใหญ่กว่า f/2 และ f/8 <br>f/10
+                ก็คือเศษส่วน 1/10 ซึ่งเราก็จะรู้ว่า 1/10 มีค่าน้อยกว่า 1/ 2</p>
+            <p class="paragraph4" >ใช้รูรับแสงกว้างถ่ายภาพ นั่นหมายถึงค่า f/1.4, f/2 หรือ f/2.8<br>
+            ใช้รูรับแสงแคบ นั่นหมายถึงตั้งแต่ค่า f/8, f/11 และ f/16</p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <img class="img4" src="https://www.photoschoolthailand.com/wp-content/uploads/2019/06/Aperture_8.jpg"
+                alt="image">
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script>
+    const appearOptions = {
+        rootMargin: "0px 0px -250px 0px"
+    };
+    const fader = document.querySelectorAll("#fade-it");
+    const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) { return; } else {
+                entry.target.classList.add("appear");
+                appearOnScroll.unobserve(entry.target);
+            }
+        })
+    }, appearOptions);
+
+    fader.forEach(fader => {
+        appearOnScroll.observe(fader);
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="parallax.js"></script>
+<script>
+    var scene = document.getElementById('screen');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+    });
+    parallaxInstance.friction(0.15, 0.075);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="parallax.js"></script>
+<script>
+    var scene = document.getElementById('scren');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+    });
+    parallaxInstance.friction(0.15, 0.075);
+</script>
+
+
+</html>

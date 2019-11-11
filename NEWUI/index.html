@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+
+
+    <title>Document</title>
+
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">เทคนิคการหายใจ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">วิธีการลงเท้าให้เหมาะกับประเภทการวิ่ง</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">6ท่ายืดเหยียดกล้ามเนื้อ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">DRILL 5 ท่าที่ทำให้วิ่งเร็วขึ้น </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tempo run</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Fartlek</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Interval</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Heart rate</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">นาฬิกาสําหรับวิ่ง</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">การฟื้นฟู</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<body class="bg">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="position: absolute;width: 100%;left: 0;">
+
+
+                <!--Warp to PAGE1-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.irishtimes.com/polopoly_fs/1.2564973.1457618388!/image/image.jpg_gen/derivatives/box_620_330/image.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">เทคนิคการหายใจ</h5>
+                        <p class="card-text">
+                            การวิ่งออกกำลังกาย หรือ การวิ่งในระยะไกลๆ จะต้องรู้จัก
+                            เทคนิคการหายใจอย่างถูกวิธีในขณะวิ่งด้วย เพราะจะช่วยให้นักวิ่งสามารถ
+                            วิ่งไปได้เร็วขึ้นเเละวิ่งได้นานขึ้น แนะนำให้ นักวิ่งฝึกตั้งแต่ตอนแรกที่เริ่มหัดวิ่ง
+                            เพราะถ้าไม่ฝึกตั้งแต่แรก
+                            พอวิ่งแล้วหายใจไม่ถูกต้องจนติดเป็นนิสัยแล้ว จะมาแก้ไขตอนหลังจะค่อนข้างยาก
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width this_km">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width this_time">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width this_pace">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+
+
+                <!--Warp to PAGE2-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://sportsguidemag.com/wp-content/uploads/2018/04/spring-gear-feature-702x336.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">วิธีการลงเท้า ให้เหมาะกับประเภทการวิ่ง</h5>
+                        <p class="card-text">
+                            การวิ่งจัดเป็นการออกกำลังกาย ที่ได้รับความนิยมเป็นอย่างมาก โดยเฉพาะช่วงหลังๆ
+                            มานี้ มีนักวิ่งหน้าใหม่ๆ เลือกใช้กีฬานี้เป็นการออกกำลังกาย เพื่อสุขภาพ หรือ
+                            เพื่อการแข่งขัน ระยะการวิ่งที่มีคนให้ควาสนใจมากที่สุด
+                            น่าจะเป็นที่ 10.5 กิโลเมตร มินิมาราธอน โดยการวิ่งก็มีเทคนิคต่างๆ มากมาย
+                            วันนี้ทางทีมงาน Sport Truelife ขอแนะนำ วิธีการลงเท้าให้เหมาะสมกับการวิ่งอย่างถูกวิธี
+
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1.5Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 9Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 8'25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">9</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">6'15"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+
+
+
+                <!--Warp to PAGE3-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://media.thegearhunt.com/wp-content/uploads/bfi_thumb/How-to-stretch-before-a-run-6kdhsva0rvvo2doo8ijymmwbe6bdessov23j1acljfw.jpg  "
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">6 ท่ายืดกล้ามเนื้อ</h5>
+                        <p class="card-text">
+                            การวิ่งออกกำลังกาย หรือ การวิ่งในระยะไกลๆ จะต้องรู้จัก เทคนิคการหายใจ
+                            อย่างถูกวิธีในขณะวิ่งด้วย เพราะจะช่วยให้นักวิ่งสามารถวิ่งไปได้เร็วขึ้น
+                            เเละวิ่งได้นานขึ้น แนะนำให้ นักวิ่งฝึกตั้งแต่ตอนแรกที่เริ่มหัดวิ่ง เพราะถ้าไม่ฝึกตั้งแต่แรก
+                            พอวิ่งแล้วหายใจไม่ถูกต้องจนติดเป็นนิสัยแล้ว
+                            จะมาแก้ไขตอนหลังจะค่อนข้างยาก
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="carousel-item">
+
+
+
+
+                <!--Warp to PAGE4-->
+                <div class="card">
+                    <img class="card-img-top" src="img/01.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">DRILL 5 ท่าที่ทำให้วิ่งเร็วขึ้น</h5>
+                        <p class="card-text">
+                            หลายคนอาจเคยได้ยินคำว่า drill มาก่อน แต่สงสัยว่ามันคืออะไรกันแน่ อธิบายง่ายๆ
+                            ก็คือเป็นการฝึกซ้อมท่าวิ่งที่ถูกต้อง ถามว่าทำไมต้องมีฟอร์มการวิ่งที่ถูกต้อง ประโยชน์หลักๆ
+                            ก็เพื่อเสริมความแข็งแกร่งของกล้ามเนื้อที่สำคัญต่อการวิ่ง
+                            ทำให้การเคลื่อนไหวของร่างกายสมบูรณ์มากยิ่งขึ้น
+                            กล้ามเนื้อและระบบประสาทประสานการทำงานอย่างสมดุล ผลที่ได้คือคุณจะวิ่งได้เร็วขึ้น
+                            ใช้พลังงานน้อยลง และลดความเสี่ยงที่จะบาดเจ็บจากการวิ่งได้
+
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="carousel-item">
+
+
+
+
+                <!--Warp to PAGE5-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.blackmores.com.au/-/media/bklau/health-hub/energy-and-exercise/how-to-get-your-tempo-run-right/how-to-get-your-tempo-run-right.jpg?db=web"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tempo run</h5>
+                        <p class="card-text">
+                            เพื่อนๆเคยสงสัย หรือ เคยได้ยินเกี่ยวกับเทคนิค Tempo Running มาก่อนไหมครับ ลักษณะ Tempo Run
+                            จะเป็นการวิ่งในระดับที่เร็วกว่า Pace
+                            ปกติแบบต่อเนื่องครับ ทางเทคนิคเรียกว่า Lactate-Threshold หรือ LT ครับ เป็นระดับที่เกิด
+                            การสะสมของกรด Lactic ในกล้ามเนื้อครับ สังเกตง่ายๆเวลาเพื่อนๆวิ่งเข้าสู่ Tempo Pace
+                            จะเริ่มรู้สึกออกจาก Comfort Zone
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="carousel-item">
+                <!--Warp to PAGE6-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://image.redbull.com/rbcom/052/2017-09-06/6450f5c8-856c-45b2-a21e-bae2cc6806d6/0012/0/0/0/4493/6739/1300/1/in-the-pain-cave%3F-count-steps....jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Fartlek</h5>
+                        <p class="card-text">
+                            Fartlek คำศัพท์ภาษาสวีเดนที่หมายถึง “การเล่นกับความเร็ว”
+                            เป็นรูปแบบของการฝึกซ้อมตามช่วงเวลาหรือความเร็วที่ สามารถมีประสิทธิภาพ
+                            ในการปรับปรุงความเร็วในการวิ่งและความอดทนของร่างกาย
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="carousel-item">
+                <!--Warp to PAGE7-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://blog.johnsonfitness.com/blog/app/uploads/2016/07/interval-training-HIIT.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Interval</h5>
+                        <p class="card-text">
+                            Interval Runs เป็นการวิ่งในช่วงเวลาสั้นๆ ที่ใช้วิธีการวิ่งเร็วสลับกับการวิ่งช้า ตัวอย่างเช่น
+                            หลังจากการวอร์มอัพเสร็จแล้ว ให้วิ่งด้วยความเร็วระดับเข้มข้น 2 นาที
+                            แล้วตามด้วยการวิ่งจ๊อกกิ้งหรือเดินง่ายๆ 2-3 นาที ทำวนสลับกันไปแบบนี้เป็นชุด
+                            ซึ่งการวิ่งแบบนี้จะช่วยเผาผลาญไขมันได้มากกว่าการวิ่งโดยใช้ความเร็วคงที่
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="carousel-item">
+                <!--Warp to PAGE8-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://admintvd.tvdirect.tv/media/wysiwyg/blog/BLOG-HeartRateZone-04.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Heart rate</h5>
+                        <p class="card-text">
+                            HR หรือ Heart rate คือ อัตราการเต้นของหัวใจมีหน่วยเป็นครั้ง/นาที เราสามารถนำค่า HR
+                            มาใช้เป็นแนวทางในการฝึกซ้อมวิ่ง เพื่อพัฒนาประสิทธิภาพด้านต่างๆ
+                            โดยเราจะแบ่งอัตราการเต้นของหัวใจออกเป็นทั้งหมด 5 โซน จากอัตราการเต้นของหัวใจสูงสุด (Max
+                            Heart Rate) เรียกว่า Heart rate zone
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="carousel-item">
+                <!--Warp to PAGE9-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://static.garmincdn.com/fr_CH/store/sports_rec/subcategory/series/forerunner/hero_running_gps_sports_watch.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">นาฬิกาสําหรับวิ่ง</h5>
+                        <p class="card-text">
+                            หากคุณกำลังมองหาตัวช่วยในการวัดผลการวิ่ง, วัดประสิทธิภาพการวิ่ง หรือ แม้แต่ช่วยเพิ่มแรงจูงใจ
+                            หนึ่งในอุปกรณ์ที่ช่วยคุณได้ก็คือ นาฬิกาวิ่ง อย่างแน่นอน แต่ นาฬิกาวิ่ง หรือ
+                            นาฬิกาออกกำลังกายเหล่านี้ มีให้เลือกเยอะแยะมากมาย ถ้าคุณได้ลองดูนาฬิกาวิ่งมาสักพัก
+                            แล้วเกิดคำถามในหัวว่า "เลือกรุ่นไหนดี..." บทความนี้คือบทความสำหรับคุณแล้วล่ะครับ
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="carousel-item">
+                <!--Warp to PAGE10-->
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://content.nike.com/content/dam/one-nike/en_us/season-2015-su/Running/WeeklyRundown/Post/Post_DSK_01.jpg.transform/full-screen/Post_DSK_01.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">การฟื้นฟู</h5>
+                        <p class="card-text">
+                            เพื่อนๆนักวิ่งส่วนใหญ่มีแผนการซ้อมทั้งนั้นล่ะครับ
+                            ไม่ว่าจะตั้งเป้าหมายให้ได้เท่าไหร่ในแต่ละวัน แต่ละอาทิตย์
+                            เพื่อให้วิ่งได้ตามเป้าในงานวิ่งสำคัญ แต่น้อยคนจะมีแผนฟื้นฟูหลังวิ่ง
+                            ทั้งๆที่จริงๆแล้วมีความสำคัญมากๆนะครับ
+                            ร่างกายเราถูกใช้งานกับการวิ่งอย่างหนัก…เรามีแต่แผนซ้อมแต่ไม่มีแผนฟื้นฟู ว่าแล้วลองไปดู
+                            วิธีง่ายๆที่ช่วยในการฟื้นฟูร่างกายหลังการวิ่ง (Postrun Recovery) กันครับ
+                        </p>
+                        <a href="#" class="btn btn-primary">อ่านต่อ</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="your_run_info">
+                        &nbsp;Distance : 1Kilometter <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Time : 6.25Min <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Pace : 6.25" <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Date : 1.5.2019 <fonts class="h5">&nbsp;&nbsp;|&nbsp;&nbsp;</fonts>
+                        Location : Ladkrabang
+                        &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-warning btn_small"
+                            data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@getbootstrap">แก้ไขข้อมูล</button>
+                        <button type="button" class="btn btn-success btn_small" data-toggle="modal"
+                            data-target="#exampleModal" data-whatever="@getbootstrap">เพิ่มข้อมูล</button>
+
+
+                    </div>
+                    <br>
+                    <table class="table table-borderless text-light" style="width:56%;">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="border-right: 1.5px solid #fff;padding-right: 20px;">
+                                    <h5>DISTANCE</h5>
+                                </th>
+                                <th scope="col" style="padding-left: 20px;">
+                                    <h6 class="std_th_width">1K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">1.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width ">2K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">2.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">3.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">4.5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width">5K</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="std_th_width this_km">5.5K</h6>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>TIME (MIN)</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6.25</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_time">-</h6>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" style="border-right: 1.5px solid #fff;">
+                                    <h6>PACE</h6>
+                                </th>
+                                <td style="padding-left: 20px;">
+                                    <h6 class="std_th_width">6'25"</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width ">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width">-</h6>
+                                </td>
+                                <td>
+                                    <h6 class="std_th_width this_pace">-</h6>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" style="color:black;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Run 1K</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Time:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+
+                            <label for="recipient-name" class="col-form-label">Pace:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+
+                            <label for="recipient-name" class="col-form-label">สถาที่วิ่ง:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+
+                            <label for="recipient-name" class="col-form-label">รูปภาพจาก APP วิ่ง:</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                    aria-describedby="inputGroupFileAddon01">
+                                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
